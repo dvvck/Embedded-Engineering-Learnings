@@ -19,7 +19,7 @@ I prefer using `m_`as a prefix but a simple `_` as a postfix also works great.
 ### Ordering [-werror=reorder]
 
 Member variables are being initialised in the order they are defined.
-Using an alternative order in the constructor doesn`t change that and therefore makes the code hard to understand and debug.
+Using an alternative order in the constructor doesn't change that and therefore makes the code hard to understand and debug.
 Furthermore it introduces potential lifecycle problems since the destructor uses the reverse order. 
 That means that the member that has been declared last will be destroyed first which might be relevant if a member `a` uses a member `b` but `a` is declared before `b`. 
 
