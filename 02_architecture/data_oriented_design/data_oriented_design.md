@@ -36,7 +36,9 @@ Talking about information density, booleans aren`t very dense in information.
 A boolean has the information if one bit but is stored in one byte therefore wasting seven bit.
 Seven bit doesn't sound like a lot but it can add up and if those seven bit result in pushing important information out of the cache resulting in a cache miss that a significant performance loss.
 
-###  More Speed & Simplicity: Practical Data-Oriented Design in C++ - Vittorio Romeo - CppCon 2025[^2]
+When answering a question about how he manages code duplications if he is not using templates, Mike emphasizes that code duplication is not as big of a problem as people think it is.
+
+### More Speed & Simplicity: Practical Data-Oriented Design in C++ - Vittorio Romeo - CppCon 2025[^2]
 
 Vittorio Romeo was heavily inspired by Mike Actons talk and therefore covers almost the exact same topic.
 Nevertheless I really enjoyed Vittorios keynote because I felt like his examples where easier to follow and easier to remember.
